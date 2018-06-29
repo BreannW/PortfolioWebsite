@@ -1,0 +1,18 @@
+a {
+  text-decoration: underline;
+  text-decoration-skip: auto;
+  color: white;
+  :hover {
+    color: #6AC5D6;
+  }
+}
+
+a .top-bar,
+.topbar-responsive-logo {
+  text-decoration: none;
+}
+
+.large-body {
+  font-size: $lead-font-size;
+  font-weight: 900;
+}
