@@ -130,3 +130,6 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     }
   }
 }
+.workThumbnails {
+  @include xy-gutters($gutter-position:top bottom);
+}
