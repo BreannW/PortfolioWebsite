@@ -16,6 +16,14 @@ $hero-height: 40vh;
     a:hover {
       color: #6AC5D6
     }
+    
+    h2, h3{
+      font-family: $body-font-family
+    }
+    
+    h3{
+      font-weight: 300;
+    }
   }
 }
 
@@ -95,6 +103,11 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
   }
 }
 
+.homepage-section-header{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -130,6 +143,45 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     }
   }
 }
-.workThumbnails {
-  @include xy-gutters($gutter-position:top bottom);
+.thumbContainer {
+  position: relative;
+  width: 50%;
+ 
+}
+.image-overlay{
+display: block;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $dark-gray;
+}
+
+
+
+
+.thumbContainer:hover .overlay{
+//  overflow: hidden;
+  opacity: .5;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
