@@ -1,0 +1,16 @@
+$hero-height: 60vh;
+.in-page-menu {
+
+    font-family: $header-font-family;
+    font-weight: 900;
+  a{
+   color: $topbar-responsive-bg; 
+   transition: color 0.15s ease-in;
+
+      &:hover {
+        color: lighten($topbar-responsive-bg, 60%);
+      }
+  }
+    
+}
+
