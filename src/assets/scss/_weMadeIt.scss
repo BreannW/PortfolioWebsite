@@ -14,3 +14,15 @@ $hero-height: 60vh;
     
 }
 
+.orbit-next {
+  right: -50px;
+  color: $topbar-responsive-bg; 
+    font-size:2em;
+
+}
+
+.orbit-previous {
+  left: -50px;
+  color: $topbar-responsive-bg; 
+  font-size:2em;
+}

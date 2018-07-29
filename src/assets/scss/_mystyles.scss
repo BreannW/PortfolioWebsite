@@ -1,3 +1,8 @@
+.in-page-menu {
+margin: 0 0 1rem 0;
+padding: 1rem;
+
+}
 
 
 
@@ -18,4 +23,8 @@ a .top-bar,
 .large-body {
   font-size: $lead-font-size;
   font-weight: 900;
+}
+
+.section-header {
+	padding-top:2em;
 }
