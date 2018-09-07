@@ -50,6 +50,8 @@
 // @include foundation-prototype-classes;
 @include motion-ui-transitions;
 @include motion-ui-animations;
+@import 'owlcarousel';
+@import 'owlthemedefault';
 
 @import 'home';
 @import 'mystyles';

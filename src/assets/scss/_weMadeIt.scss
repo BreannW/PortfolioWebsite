@@ -1,28 +1,15 @@
 $hero-height: 60vh;
 .in-page-menu {
 
-    font-family: $header-font-family;
-    font-weight: 900;
-  a{
-   color: $topbar-responsive-bg; 
-   transition: color 0.15s ease-in;
+  font-family: $header-font-family;
+  font-weight: 900;
+  a {
+    color: $topbar-responsive-bg;
+    transition: color 0.15s ease-in;
 
-      &:hover {
-        color: lighten($topbar-responsive-bg, 60%);
-      }
+    &:hover {
+      color: lighten($topbar-responsive-bg, 60%);
+    }
   }
-    
-}
 
-.orbit-next {
-  right: -50px;
-  color: $topbar-responsive-bg; 
-    font-size:2em;
-
-}
-
-.orbit-previous {
-  left: -50px;
-  color: $topbar-responsive-bg; 
-  font-size:2em;
 }

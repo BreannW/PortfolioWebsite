@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import whatInput from 'what-input';
 
-window.$ = $;
+import 'owl.carousel';
 
 import Foundation from 'foundation-sites';
 // If you want to pick and choose which modules to include, comment out the above and uncomment
@@ -9,4 +9,8 @@ import Foundation from 'foundation-sites';
 //import './lib/foundation-explicit-pieces';
 
 
-$(document).foundation();
+$(document).foundation(
+
+
+
+   )

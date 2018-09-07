@@ -13,6 +13,8 @@
     "foundation-sites": "^6.4.3",
     "jquery": ">=3.0.0",
     "motion-ui": "~1.2.2",
+    "owl.carousel": "^2.3.4",
+    "sass": "^1.13.2",
     "what-input": "^4.1.3"
   },
   "devDependencies": {

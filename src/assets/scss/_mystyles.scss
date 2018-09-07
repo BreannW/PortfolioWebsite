@@ -4,9 +4,12 @@ padding: 1rem;
 
 }
 
+.topbar-responsive-logo #name{
+  color: white !important; 
+}
 
 
-a {
+a:not(.section-header)>a {
   text-decoration: underline;
   text-decoration-skip: auto;
   color: white;
@@ -26,5 +29,54 @@ a .top-bar,
 }
 
 .section-header {
-	padding-top:2em;
+padding-top:2em;
+  color:$dark-gray;
+}
+
+
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 40%;
+  margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+  color: white;
+}
+
+.owl-prev {
+  left: 0;
+   color: rgba(31,83,106,0.9);
+ 
+}
+
+.owl-next {
+  right: 0;
+}
+
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  font-size: 100px;
+  color: white;
+  line-height: auto;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+background: rgba(31,83,106,0.0);
+ color:#6AC5D6;
+}
+
+
+owl-prev:hover{
+   color: rgba(31,83,106,0.9);
 }
