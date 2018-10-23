@@ -1,20 +1,21 @@
-$hero-height: 60vh;
+$hero-height: 120vh;
 
 .in-page-menu {
 margin: 0 0 1rem 0;
 padding: 1rem;
+    font-size: 2rem;
 
 }
 
 .topbar-responsive-logo #name{
-  color: white !important; 
+  color: $white !important; 
 }
 
 
 a:not(.section-header)>a {
   text-decoration: underline;
   text-decoration-skip: auto;
-  color: white;
+  color: $white;
   :hover {
     color: #6AC5D6;
   }
@@ -46,7 +47,7 @@ padding-top:2em;
   position: absolute;
   top: 40%;
   margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
-  color: white;
+  color: $white;
 }
 
 .owl-prev {
@@ -69,7 +70,7 @@ padding-top:2em;
   padding: 0 !important;
   font: inherit;
   font-size: 100px;
-  color: white;
+  color: $white;
   line-height: auto;
 }
 
@@ -81,4 +82,11 @@ background: rgba(31,83,106,0.0);
 
 owl-prev:hover{
    color: rgba(31,83,106,0.9);
+}
+
+label {
+  font-family: $header-font-family;
+  font-weight: 900;
+    color: $white;
+    padding-bottom: 1%;
 }
